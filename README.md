@@ -18,7 +18,7 @@ bower install responsive-instagram
 Make sure you're calling jQuery and this plugin on your page. Your paths may vary.
 
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="/bower_components/responsive-instagram/jquery.responsiveinstagram.js"></script>
 ```
 
