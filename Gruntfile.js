@@ -10,9 +10,6 @@ module.exports = function(grunt) {
         "eqeqeq": true,
         "undef": true,
         "laxcomma": true,
-        "dists": {
-          "jQuery": true
-        },
         "browser": true,
         "devel": true
       }
@@ -23,20 +20,24 @@ module.exports = function(grunt) {
         src: 'jquery.responsiveinstagram.js',
         dest: 'jquery.responsiveinstagram.min.js'
       }
+    , test: {
+        src: ['jquery.responsiveinstagram.js','test/test.js']
+      , dest: 'test/test2.js'
+      }
     }
 
   , connect: {
       server: {
         options: {
           port: 9001
-        , base: '.'
+        , base: 'test'
         , livereload: true
         }
       }
     }
 
   , watch: {
-      files: ['jquery.responsiveinstagram.js']
+      files: ['jquery.responsiveinstagram.js','test/test.js','test/index.html']
     , tasks: ['jshint', 'uglify']
     , options: {
         livereload: true
