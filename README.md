@@ -56,7 +56,7 @@ The width defaults to `612` and should match the original width of your iframe.
 The plugin functions around the principle that the extra height is the total of the header and footer
 of the embed. The image is always a square and will respond to the width of its container. If the Instgram
 embed changes in the future or if you have a different version being displayed you may need to adjust this
-value. It defaults to `98`.
+value. This option defaults to `98`.
 
 **breakpoint**  
 The breakpoint determines the difference between when the plugin will leave the iframe at its maximum,
