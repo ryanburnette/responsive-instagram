@@ -63,3 +63,35 @@ The breakpoint determines the difference between when the plugin will leave the 
 predetermined width and when it will calculate it. This number is checked against the window width so it may
 vary greatly from the width of the container around your iframe. The default is `620` but this option will
 almost always need to be adjusted.
+
+Testing
+-------
+
+A test is included in the repository. To utilize it you'll need Node, NPM, and Grunt-cli installed locally.
+
+Install the development dependencies.
+
+```bash
+npm install
+```
+
+Run a live test.
+
+```bash
+grunt devlive /
+open http://localhost:9001
+```
+
+Issues and Contributing
+-----------------------
+
+Feel free to report issues or make pull requests. For custom usage it's often best to fork, customize, and maintain.
+
+License
+-------
+
+This project is licensed under [Apache2][2], meh.
+
+
+[1]: http://bower.io
+[2]: http://www.apache.org/licenses/LICENSE-2.0.html
