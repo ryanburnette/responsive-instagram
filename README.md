@@ -3,6 +3,8 @@ Responsive Instagram
 
 **responsiveInstagram** is a jQuery plugin that helps to make Instagram's iframe responsive.
 
+See a [responsive Instagram iframe][3] on CodePen.
+
 Basic Usage
 -----------
 
@@ -95,3 +97,4 @@ This project is licensed under [Apache2][2], meh.
 
 [1]: http://bower.io
 [2]: http://www.apache.org/licenses/LICENSE-2.0.html
+[3]: http://codepen.io/ryanburnette/pen/nCtFm
