@@ -52,5 +52,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['uglify']);
   grunt.registerTask('dev', ['jshint','uglify']);
-  grunt.registerTask('devlive', ['connect','watch']);
+  grunt.registerTask('devserve', ['connect','watch']);
 };

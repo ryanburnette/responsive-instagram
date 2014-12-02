@@ -1,12 +1,11 @@
 {
   "name": "responsive-instagram",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "homepage": "https://github.com/ryanburnette/responsiveInstagram",
   "authors": [
     "Ryan Burnette <ryan.burnette@gmail.com>"
   ],
   "description": "Make Instagram iframes responsive.",
-  "main": "jquery.responsiveinstagram.js",
   "license": "Apache2",
   "ignore": [
     "**/.*",
