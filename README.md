@@ -3,7 +3,7 @@ Responsive Instagram
 
 **Responsive Instagram** is a jQuery plugin that helps to make Instagram's iframe responsive.
 
-See a [responsive Instagram iframe][3] on CodePen.
+See a [demo on CodePen](http://codepen.io/ryanburnette/details/nCtFm/).
 
 Basic Usage
 -----------
@@ -11,7 +11,7 @@ Basic Usage
 For the most basic usage you'll want to load the script onto your page and
 call the plugin on your iframes.
 
-This example assumes that you're using [Bower][1] to download additional libraries.
+This example assumes that you're using [Bower](http://bower.io) to download additional libraries.
 
 ```
 bower install responsive-instagram
@@ -106,8 +106,3 @@ License
 -------
 
 [Apache2](https://github.com/ryanburnette/responsive-instagram/blob/master/LICENSE)
-
-
-[1]: http://bower.io
-[2]: http://www.apache.org/licenses/LICENSE-2.0.html
-[3]: http://codepen.io/ryanburnette/pen/nCtFm
