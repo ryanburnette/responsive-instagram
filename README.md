@@ -5,13 +5,20 @@ Responsive Instagram
 
 See a [demo on CodePen](http://bit.ly/1vGw38R).
 
+Read my [blog post about responsive Isntagram embeds](http://bit.ly/responsiveinstragram).
+
+Obsolete
+--------
+
+Instagram now provides embed code that includes JavaScript for this purpose.
+This plugin is still useful if you're working with old iframe embed code, but
+it's easier to just get fresh embed code.
+
 Basic Usage
 -----------
 
 For the most basic usage you'll want to load the script onto your page and
 call the plugin on your iframes.
-
-This example assumes that you're using [Bower](http://bower.io) to download additional libraries.
 
 ```
 bower install responsive-instagram
@@ -20,7 +27,7 @@ bower install responsive-instagram
 Make sure you're calling jQuery and this plugin on your page. Your paths may vary.
 
 ```html
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 <script src="jquery.responsiveinstagram.js"></script>
 ```
 
@@ -57,16 +64,16 @@ $('.instagram iframe').responsiveInstagram({
 });
 ```
 
-**width**
+### `width`
 The width defaults to `612` and should match the original width of your iframe.
 
-**extraHeight**
+### `extraHeight`
 The plugin functions around the principle that the extra height is the total of the header and footer
 of the embed. The image is always a square and will respond to the width of its container. If the Instgram
 embed changes in the future or if you have a different version being displayed you may need to adjust this
 value. This option defaults to `98`.
 
-**breakpoint**
+### `breakpoint`
 The breakpoint determines the difference between when the plugin will leave the iframe at its maximum,
 predetermined width and when it will calculate it. This number is checked against the window width so it may
 vary greatly from the width of the container around your iframe. The default is `620` but this option will
@@ -97,10 +104,6 @@ grunt devserve && open http://localhost:9001
 
 * v0.1.0 2014-02-21
   * Intial release
-
-## Contributing
-
-Open an [Issue](https://github.com/ryanburnette/responsive-instagram/issues) or bring a [Rull Request](https://github.com/ryanburnette/responsive-instagram/pulls)!
 
 License
 -------
