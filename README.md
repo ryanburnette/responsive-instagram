@@ -95,17 +95,3 @@ Run a live test.
 ```bash
 grunt devserve && open http://localhost:9001
 ```
-
-## History
-
-* v0.2.0 2014-12-02
-  * Change defaults to match new Instagram styling
-  * Return `this` for chaining
-
-* v0.1.0 2014-02-21
-  * Intial release
-
-License
--------
-
-[Apache2](https://github.com/ryanburnette/responsive-instagram/blob/master/LICENSE)
